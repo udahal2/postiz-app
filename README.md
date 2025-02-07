@@ -13,7 +13,6 @@
   </a>
 </p>
 
-
 <p align="center">
 <a href="https://opensource.org/licenses/Apache-2.0">
   <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
@@ -28,85 +27,71 @@
   Postiz offers everything you need to manage your social media posts,<br />build an audience, capture leads, and grow your business.
 </div>
 
-
-<div class="flex" align="center">
-  <br />
-  <img alt="Instagram" src="https://postiz.com/svgs/socials/Instagram.svg" width="32">
-  <img alt="Youtube" src="https://postiz.com/svgs/socials/Youtube.svg" width="32">
-  <img alt="Dribbble" src="https://postiz.com/svgs/socials/Dribbble.svg" width="32">
-  <img alt="Linkedin" src="https://postiz.com/svgs/socials/Linkedin.svg" width="32">
-  <img alt="Reddit" src="https://postiz.com/svgs/socials/Reddit.svg" width="32">
-  <img alt="TikTok" src="https://postiz.com/svgs/socials/TikTok.svg" width="32">
-  <img alt="Facebook" src="https://postiz.com/svgs/socials/Facebook.svg" width="32">
-  <img alt="Pinterest" src="https://postiz.com/svgs/socials/Pinterest.svg" width="32">
-  <img alt="Threads" src="https://postiz.com/svgs/socials/Threads.svg" width="32">
-  <img alt="X" src="https://postiz.com/svgs/socials/X.svg" width="32">
-  <img alt="X" src="https://postiz.com/svgs/socials/Slack.svg" width="32">
-  <img alt="X" src="https://postiz.com/svgs/socials/Discord.svg" width="32">
-  <img alt="X" src="https://postiz.com/svgs/socials/Mastodon.svg" width="32">
-  <img alt="X" src="https://postiz.com/svgs/socials/Bluesky.svg" width="32">
-</div>
-
-<p align="center">
-  <br />
-  <a href="https://docs.postiz.com" rel="dofollow"><strong>Explore the docs »</strong></a>
-  <br />
-
-  <br/>
-    <a href="https://platform.postiz.com">Register</a>
-    ·
-    <a href="https://discord.postiz.com">Join Our Discord (devs only)</a>
-    ·
-    <a href="https://twitter.com/getpostiz">X</a>
-    ·
-    <a href="https://gitroom.com">Gitroom</a>
-    ·
-    <a href="https://git.sn/telegram">Telegram (Crypto)</a>
-  </p>
-
-<br />
-
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/05436a01-19c8-4827-b57f-05a5e7637a67" width="100%" />
-</p>
-
-## ✨ Features
-
-| ![Image 1](https://github.com/user-attachments/assets/a27ee220-beb7-4c7e-8c1b-2c44301f82ef) | ![Image 2](https://github.com/user-attachments/assets/eb5f5f15-ed90-47fc-811c-03ccba6fa8a2) |
-|--------------------------------|--------------------------------|
-| ![Image 3](https://github.com/user-attachments/assets/d51786ee-ddd8-4ef8-8138-5192e9cfe7c3) | ![Image 4](https://github.com/user-attachments/assets/91f83c89-22f6-43d6-b7aa-d2d3378289fb) |
-
-# Intro
+## Intro
 
 - Schedule all your social media posts (many AI features)
 - Measure your work with analytics.
 - Collaborate with other team members to exchange or buy posts.
 - Invite your team members to collaborate, comment, and schedule posts.
-- At the moment there is no difference between the hosted version to the self-hosted version
+- At the moment there is no difference between the hosted version to the self-hosted version.
 
 ## Tech Stack
 
-- NX (Monorepo)
-- NextJS (React)
-- NestJS
-- Prisma (Default to PostgreSQL)
-- Redis (BullMQ)
-- Resend (email notifications)
+- **NX (Monorepo)**
+- **NextJS (React)**
+- **NestJS**
+- **Prisma (Default to PostgreSQL)**
+- **Redis (BullMQ)**
+- **Resend (email notifications)**
 
-## Quick Start
-To have the project up and running, please follow the [Quick Start Guide](https://docs.postiz.com/quickstart)
+## Quick Start Guide for Windows
 
-## Invest in the Postiz Coin :)
-DMsTbeCfX1crgAse5tver98KAMarPWeP3d6U3Gmmpump
+1. **Install Required Tools**:
+    - **Git**: To manage the repository.
+    - **Node.js**: For the frontend and backend dependencies.
+    - **Python**: For running the backend server.
+    - **Docker**: For managing containers (if needed).
+    - **Visual Studio Code** or **your preferred code editor**.
+  
+2. **Clone the Repository**:
+    Clone the forked repository:
+    ```bash
+    git clone https://github.com/your-username/postiz.git
+    cd postiz
+    ```
 
-# License
+3. **Setup Python Virtual Environment for Backend**:
+    Create a Python virtual environment for the backend:
+    ```bash
+    python -m venv venv
+    .\venv\Scripts\activate  # For Windows
+    pip install -r requirements.txt  # Install required dependencies
+    ```
 
-This repository's source code is available under the [AGPL-3.0 license](LICENSE).
+4. **Install Node.js Dependencies for Frontend**:
+    ```bash
+    cd frontend
+    npm install  # Install frontend dependencies
+    ```
+
+5. **Run the Project**:
+    - Run the following command to start both the backend and frontend locally:
+    ```bash
+    powershell .\build.ps1 -rule "run"
+    ```
+
+This will automatically start the backend API server and the frontend React application.
+
+6. **Access the Application**:
+    - **Backend API** will be available at `http://localhost:8000` (adjust if needed).
+    - **Frontend** will be available at `http://localhost:3000`.
+
+## License
+
+This repository's source code is available under the [Apache-2.0 license](LICENSE).
 
 <br /><br /><br />
 
 <p align="center">
   <a href="https://www.g2.com/products/postiz/take_survey" target="blank"><img alt="g2" src="https://github.com/user-attachments/assets/892cb74c-0b49-4589-b2f5-fbdbf7a98f66" /></a>
 </p>
-
-
